@@ -73,7 +73,6 @@ circle.Thickness = 2
 circle.Color = Aiming.FOVColour
 circle.Filled = false
 Aiming.FOVCircle = circle
-disablecircle.bind = ''
 
 -- // Update
 function Aiming.UpdateFOV()
