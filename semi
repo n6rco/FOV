@@ -38,8 +38,8 @@ getgenv().Aiming = {
     Enabled = true,
 
     ShowFOV = false,
-    FOV = 35,
-    FOVSides = 35,
+    FOV = 30,
+    FOVSides = 30,
     FOVColour = Color3fromRGB(231, 84, 128),
 
     VisibleCheck = true,
@@ -73,6 +73,7 @@ circle.Thickness = 2
 circle.Color = Aiming.FOVColour
 circle.Filled = false
 Aiming.FOVCircle = circle
+disablecircle.bind = 'F'
 
 -- // Update
 function Aiming.UpdateFOV()
@@ -436,5 +437,3 @@ end)
 
 -- //
 return Aiming
-
--- // If you want the examples, look at the docs.
